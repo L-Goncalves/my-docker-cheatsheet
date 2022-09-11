@@ -1,6 +1,6 @@
-# Docker
+# This is my docker cheatsheet
 
-
+Basically I created this repo just to remember better the docker commands instead of saving them in only one place I have decided to leave it here on github.
 
 ## Docker basic commands: 
 ``docker ps`` you can see all images
