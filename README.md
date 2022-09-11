@@ -2,15 +2,11 @@
 
 Basically I created this repo just to remember better the docker commands instead of saving them in only one place I have decided to leave it here on github.
 
-## Docker basic commands: 
-
-
-
+# Docker: 
 | Parameter | Command | Short description |
 | ------------- | ------------- | ------------- |
 | ------------- | ``docker ps`` | You can see all images  |
 | ------------- | ``docker build <directory>`` | you can build an image |
-| ```-it```|  ------------- | Interactive mode, basically you go inside the container or image  |
 |  ------------- | ``docker run <image> -p 3000:3000``|  Run an image and expose port 3000 to 3000  |
 | -------------  | ``docker run <image> -d`` | run the image and hides the internal terminal
 |  ------------- | ``docker system prune`` | Deletes images, networks and all stopped containers|
@@ -19,8 +15,12 @@ Basically I created this repo just to remember better the docker commands instea
 |  ------------- | ``docker pull <image>``| You can download an image into your pc or server or cluster wherever docker is |
 |  ------------- | ``docker login``| You can Login into docker hub |
 
+## docker parameters
+| Command Example | parameter | Short description |
+| ------------- | ------------- | --------------- |
+| ```-it```|  ```docker run -it``` | Interactive mode, basically you go inside the container or image  |
 
-## Docker-compose
+# docker-compose commands
 
 Command | Short description |
 ------------- | ------------- |
@@ -28,7 +28,7 @@ Command | Short description |
 ``docker-compose down``  |  stop running an entire app|
 
 
-## Docker-compose parameters
+## docker-compose parameters
 
 Command | Parameter | Short Parameter description |
 | ------------- | ------------- | ------------- |
