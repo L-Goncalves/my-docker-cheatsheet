@@ -18,3 +18,18 @@ Basically I created this repo just to remember better the docker commands instea
 |  ------------- | ``docker push <image>``  | You can push image into docker hub|
 |  ------------- | ``docker pull <image>``| You can download an image into your pc or server or cluster wherever docker is |
 |  ------------- | ``docker login``| You can Login into docker hub |
+
+
+## Docker-compose
+
+Command | Short description |
+------------- | ------------- |
+``docker-compose up``  |  start and run an entire app on a standalone host that contains multiple services |
+``docker-compose down``  |  stop running an entire app|
+
+
+## Docker-compose parameters
+
+Command | Parameter | Short Parameter description |
+| ------------- | ------------- | ------------- |
+ ``docker-compose down --remove-orphans`` | ``--remove-orphans`` | delete stopped containers |
